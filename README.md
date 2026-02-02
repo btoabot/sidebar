@@ -8,5 +8,6 @@ Sidebar Demo. See [here](https://btoabot.github.io/sidebar/).
 
 [<video src="https://github.com/btoabot/chat/raw/master/assets/test.mp4" controls width="600"></video>](https://github.com/btoabot/sidebar/blob/e3216c62df10eab8b8da29db06ea7297cf383112/assets/test.mp4)
 
-<video src="https://github.com/btoabot/sidebar/releases/download/v.1.0.0/test.mp4" controls width="600"></video>
+
+➡️ [Release v.1.0.0 with demo video](https://github.com/btoabot/sidebar/releases/tag/v.1.0.0)
 
