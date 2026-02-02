@@ -13,7 +13,7 @@ export const DrawerHeaderSection = () => {
     <DrawerHeader>
       <DrawerTitle className="text-[22px] font-bold flex items-center justify-between">
         <span>Change background</span>
-        <CloseIcon className="mb-1.5 mr-1.5" />
+        <CloseIcon className="mb-1.5 mr-1.5 cursor-pointer" />
       </DrawerTitle>
 
       <div className="w-[360px]">
