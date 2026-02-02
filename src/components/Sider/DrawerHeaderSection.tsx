@@ -8,12 +8,16 @@ import CloseIcon from "@/assets/icons/close.svg?react"
 import { PromptTextarea } from "./PromptTextarea"
 import { GenerateButton } from "./GenerateButton"
 
-export const DrawerHeaderSection = () => {
+type DrawerHeaderSectionProps = {
+  handleClose: () => void;
+};
+
+export const DrawerHeaderSection = ({handleClose}: DrawerHeaderSectionProps) => {
   return (
     <DrawerHeader>
       <DrawerTitle className="text-[22px] font-bold flex items-center justify-between">
         <span>Change background</span>
-        <CloseIcon className="mb-1.5 mr-1.5 cursor-pointer" />
+        <CloseIcon className="mb-1.5 mr-1.5 cursor-pointer" onClick={handleClose} />
       </DrawerTitle>
 
       <div className="w-[360px]">
