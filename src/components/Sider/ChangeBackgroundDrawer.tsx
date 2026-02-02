@@ -7,10 +7,13 @@ import {
 
 import { DrawerHeaderSection } from "./DrawerHeaderSection"
 import { BackgroundsGrid } from "./BackgroundsGrid"
+import { useState } from "react"
 
 export const ChangeBackgroundDrawer = () => {
+  const [open, setOpen] = useState<boolean>(false)
+
   return (
-    <Drawer open direction="right">
+    <Drawer open={open} onOpenChange={setOpen} direction="right">
       <DrawerTrigger asChild>
         <Button variant="outline" className="capitalize">
           Change background
